@@ -1,9 +1,9 @@
 // frontend/src/services/backendService.js
 
 // ⚠️ URLs BASE: Ajustadas para as rotas que o backend está esperando (porta 3001)
-const ATENDIMENTOS_BASE_URL = 'http://localhost:3001/api/atendimentos';
-const AUTH_BASE_URL = 'http://localhost:3001/api/auth'; 
-const AUTOMATION_URL = 'http://localhost:3001/api/atendimentos/forms/preencher'; // Endpoint dedicado para a automação
+const ATENDIMENTOS_BASE_URL = 'https://autonaf-unifor.onrender.com/api/atendimentos';
+const AUTH_BASE_URL = 'https://autonaf-unifor.onrender.com/api/auth'; 
+const AUTOMATION_URL = 'https://autonaf-unifor.onrender.com/api/atendimentos/forms/preencher'; // Endpoint dedicado para a automação
 
 const headers = {
     'Content-Type': 'application/json',
@@ -202,3 +202,4 @@ export const downloadRelatorio = async (filename) => {
         throw error;
     }
 };
+
