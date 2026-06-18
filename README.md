@@ -160,4 +160,4 @@ Projeto desenvolvido para apoiar as atividades do Núcleo de Apoio Fiscal (NAF),
 
 GitHub: https://github.com/reidaordem
 
-LinkedIn: https://www.linkedin.com/
+LinkedIn: www.linkedin.com/in/emanuel-alves-melo-62762239b
